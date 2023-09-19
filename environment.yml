@@ -6,40 +6,27 @@ channels:
   - defaults
 
 dependencies:
-  - bokeh
-  - captum
-  - cudatoolkit=11.1
-  - datashader
-  - gh
+  - cudatoolkit=11.7
   - git
-  - holoviews
-  - hvplot
   - ipywidgets
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-nvdashboard
   - jupyterlab-lsp
   - matplotlib
-  - numba
   - numpy
   - optuna
-  - pandas
   - panel
   - pip
   - pip:
     - -r requirements.txt
-  - pyarrow
   - python=3.9
   - python-language-server
-  - pytorch=1.9
+  - pytorch=2.0
   - pytorch-lightning
-  - pyviz_comms
-  - scikit-learn
-  - scipy
   - tensorboard
   - torchaudio
   - torchmetrics
   - torchtext
-  - torchvision
-  - wandb
+  - torchvision=0.15.0
   - xeus-python
