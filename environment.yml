@@ -6,8 +6,14 @@ channels:
   - defaults
 
 dependencies:
+  - bokeh
+  - captum
   - cudatoolkit=11.7
+  - datashader
+  - gh
   - git
+  - holoviews
+  - hvplot
   - ipywidgets
   - jupyterlab
   - jupyterlab-git
@@ -20,10 +26,12 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
+  - pyarrow
   - python=3.9
   - python-language-server
-  - pytorch=2.0
+  - pytorch=2.0.0
   - pytorch-lightning
+  - pyviz_comms
   - tensorboard
   - torchaudio
   - torchmetrics
