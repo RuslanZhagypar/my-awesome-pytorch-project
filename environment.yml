@@ -8,7 +8,7 @@ channels:
 dependencies:
   - bokeh
   - captum
-  - cudatoolkit=11.7
+  - cudatoolkit=11.3
   - datashader
   - gh
   - git
@@ -29,12 +29,12 @@ dependencies:
   - pyarrow
   - python=3.9
   - python-language-server
-  - pytorch=2.0.0
+  - pytorch=1.12.1
   - pytorch-lightning
   - pyviz_comms
   - tensorboard
-  - torchaudio
+  - torchaudio=0.12.1
   - torchmetrics
   - torchtext
-  - torchvision=0.15.0
+  - torchvision=0.13.1
   - xeus-python
